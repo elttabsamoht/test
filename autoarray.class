@@ -31,7 +31,7 @@ End Property
 Public Sub Resize(iRow As Integer, iCol As Integer)
     Let RowMax = iRow
     Let ColMax = iCol
-    ReDim pItems(1 To pRowMax, 1 To pColMax)
+    ReDim pItems(pRowMax,pColMax)
 End Sub
 
 Public Sub Load(iRng As Range)
