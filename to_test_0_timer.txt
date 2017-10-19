@@ -1,0 +1,13 @@
+@ECHO OFF
+
+:LOOP
+ECHO Waiting for 1 minute...
+  PING -n 60 127.0.0.1>nul
+  IF %DATE:~0,3%==Mon CALL SomeOtherFile.cmd
+  IF %DATE:~0,3%==Tue CALL SomeOtherFile.cmd
+  IF %DATE:~0,3%==Wed CALL SomeOtherFile.cmd
+  IF %DATE:~0,3%==Thu CALL WootSomeOtherFile.cmd
+  IF %DATE:~0,3%==Fri CALL SomeOtherFile.cmd
+  IF %DATE:~0,3%==Sat ECHO Saturday...nothing to do.
+  IF %DATE:~0,3%==Sun ECHO Sunday...nothing to do.
+GOTO LOOP
