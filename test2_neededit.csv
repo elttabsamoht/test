@@ -1,0 +1,25 @@
+SQL> select bla,blabla,blablabla from bla.blabla;;
+bla1;blabla1;blablabla1
+bla2;blabla2;blablabla2
+bla3;blabla3;blablabla3
+bla4;blabla4;blablabla4
+bla5;blabla5;blablabla5
+bla6;blabla6;blablabla6
+bla7;blabla7;blablabla7
+bla8;blabla8;blablabla8
+bla9;blabla9;blablabla9
+bla10;blabla10;blablabla10
+bla11;blabla11;blablabla11
+bla12;blabla12;blablabla12
+bla13;blabla13;blablabla13
+bla14;blabla14;blablabla14
+bla15;blabla15;blablabla15
+bla16;blabla16;blablabla16
+bla17;blabla17;blablabla17
+bla18;blabla18;blablabla18
+bla19;blabla19;blablabla19
+bla20;blabla20;blablabla20
+bla21;blabla21;blablabla21
+bla22;blabla22;blablabla22
+bla23;blabla23;blablabla23
+SQL> spool off;;
